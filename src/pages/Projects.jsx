@@ -11,9 +11,8 @@ const projects = [
       "Quick note tagging, reviewer summaries, and approval workflow.",
       "Secure login with role-based access (Admin, Reviewer, Supervisor).",
       "Search/filter medical records by date, case ID, or patient name.",
-      "Audit trail logs all user actions for compliance.",
       "Email/SMS notifications for file assignment and status change.",
-      "Built with React (Frontend), Laravel (Backend), and MySQL (DB)."
+      // "Built with React (Frontend), Laravel (Backend), and PgSQL (DB)."
     ],
     link: "#"
   },
@@ -21,15 +20,13 @@ const projects = [
     title: "ERP Billing Software",
     company: "Elroi Software Solution",
     description: [
-      "Comprehensive ERP system tailored for SMEs with custom modules.",
-      "Purchase Module: Supplier management, GRN, purchase orders.",
-      "Sales Module: GST-ready invoicing, multiple payment tracking.",
-      "Asset Management: Asset register, transfer, and depreciation tracking.",
+      "Purchase Module: Supplier management, purchase bills, purchase orders.",
+      "Sales Module: sales invoice and sales receipt.",
+      "Asset Management: Asset maintenance, transfer, and depreciation tracking.",
       "Recurring Billing: Monthly/Annual auto invoice generation.",
       "Reports: Export filtered reports in PDF/Excel format.",
-      "Dashboard with Chart.js: Sales, Purchase, Revenue insights.",
-      "Multi-role access (Admin, Accountant, Sales Executive).",
-      "Built using Laravel (Backend), Angular (Frontend), and MySQL (DB)."
+      "Reminder notification for asset maintenance.",
+      // "Built with React (Frontend), Laravel, Node.js (Backend), and PgSQL, MongoDB.",
     ],
     link: "#"
   }
@@ -56,14 +53,14 @@ const Projects = () => {
                 ))}
               </ul>
 
-              <a
+              {/* <a
                 href={project.link}
                 className="inline-block mt-2 text-blue-600 font-medium hover:underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 🔗 View Project
-              </a>
+              </a> */}
             </div>
           ))}
         </div>

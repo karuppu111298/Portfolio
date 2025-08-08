@@ -15,12 +15,12 @@ export default function Home() {
 
         {/* Short Bio */}
         <p className="text-xl text-gray-600 mb-4">
-          A Passionate Full-Stack Developer crafting modern web applications using React, Angular, Node.js, Laravel & MongoDB.
+          A Passionate Full-Stack Developer crafting modern web applications using React, Angular, Node.js, Laravel, PostgreSQL & MongoDB.
         </p>
 
         {/* Location and Experience */}
         <p className="text-gray-500 mb-6">
-          📍 Madurai, India &nbsp; | &nbsp; 💼 3+ Years Experience
+          📍 Madurai, Tamilnadu &nbsp; | &nbsp; 💼 3 Years Experience
         </p>
 
        
